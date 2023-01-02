@@ -1,0 +1,64 @@
+@media(min-width: 769px){
+
+    .capa{
+        height: 90vh;
+        background-color: rgb(223, 223, 223);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 10px;
+        margin-top: 80px;
+
+    }
+
+
+    .abautMe{
+        margin-top: 10px;
+        padding: 30px;
+        background-color: rgb(223, 223, 223);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        margin-bottom: 10px;
+        
+
+        
+    }
+  
+
+    .abautMe div{
+        width: 50%;
+        text-align: justify;
+        
+    }
+  
+
+    .projects{
+        margin-top: 20px;
+        padding: 30px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+    .projects-block-1{
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .projects-block-2{
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+
+}
