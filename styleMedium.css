@@ -60,5 +60,29 @@
         padding-bottom: 10px;
     }
 
+    .skills{
+        width: 100%;
+        background-color: rgb(187, 187, 177);
+        height: 400px;
+    }
+
+    .education{
+        width: 100%;
+        background-color: rgb(184, 184, 113);
+        height: 400px;
+    }
+
+    .certificates{
+        width: 100%;
+        background-color: rgb(88, 134, 187);
+        height: 400px;
+    }
+
+    .depositions{
+        width: 100%;
+        background-color: rgb(223, 73, 85);
+        height: 400px;
+    }
+
     
 }
