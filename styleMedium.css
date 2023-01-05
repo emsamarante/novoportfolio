@@ -1,12 +1,12 @@
 @media(max-width: 768px){
     .capa{
         height: 90vh;
-        background-color: rgb(223, 223, 223);
+        background-color: #2d383c;
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin-bottom: 10px;
-        margin-top: 5vh;
+        margin-top: 4vh;
 
         
     }
@@ -15,7 +15,7 @@
     .abautMe{
         margin-top: 10px;
         padding: 30px;
-        background-color: rgb(223, 223, 223);
+        background-color: #212529;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -26,14 +26,17 @@
 
     }
     .abautMe div{
-       
+       background-color: #212529;
         width: 100%;
         padding-bottom: 15px;
         text-align: justify;
+        color: #b7babb;
+        
     }
   
     .abautMe div img{
-        width: 100%;
+        width: 80%;
+        text-align: center;
     }
 
     .projects{
