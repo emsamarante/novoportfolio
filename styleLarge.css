@@ -1,6 +1,10 @@
 @media(min-width: 769px){
 
     .capa{
+        align-items: center;
+        width: 100wv;
+        display: flex;
+        justify-content: center;
         height: 88vh;
         background-color: #2d383c;
         display: flex;
@@ -15,7 +19,7 @@
     .abautMe{
         margin-top: 10px;
         padding: 30px;
-        background-color: rgb(223, 223, 223);
+        background-color: #424950;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -29,6 +33,7 @@
   
 
     .abautMe div{
+        
         width: 50%;
         text-align: justify;
         

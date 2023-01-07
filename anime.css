@@ -1,0 +1,32 @@
+@keyframes anime{
+
+    from{
+        width: 10vw;
+    }
+
+    to{
+
+        width:100vw;
+
+
+        
+    }
+}
+
+
+.anime{
+
+  
+    animation: anime;
+    animation-duration: 5s;
+    color: white;
+    animation-iteration-count: infinite;
+    white-space: nowrap;
+    overflow: hidden;
+   
+}
+.cont-anime{
+    width: 100wv;
+    display: flex;
+    justify-content: center;
+}
