@@ -1,0 +1,75 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; text-decoration: none;}
+body::-webkit-scrollbar {width: 10px}
+
+body::-webkit-scrollbar-track {background: #1e3036;}
+
+body::-webkit-scrollbar-thumb {background-color:#60c1e7 ; border-radius: 20px;}
+/* 
+font-family: 'Chakra Petch', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+*/
+
+@media (max-width: 768px){
+
+    body{background-color:#1D1D1E}
+
+    .cover{width: 100%; height: 100vh; color: white; text-align: center; display: flex; align-items: center; justify-content: center; flex-direction: column;}
+    .cover h1{font-size: 1.7rem; color: #5da2db; font-family: 'Chakra Petch', sans-serif;}
+    .cover h2{font-size: 1rem; font-family: 'Roboto', sans-serif;}
+    .cover h3{font-size: 0.8rem;}
+    .cover a{color: white;}
+    
+
+    .titulo-secao{width: 100%; display: flex; flex-direction: column;align-items: center;justify-content: center;margin-top: 10px; margin-bottom: 10px;}
+    .titulo-secao h2{font-family: 'Chakra Petch', sans-serif; padding: 20px; color: #9a9aa7; margin-bottom: 20px;margin-top: 5px;}
+    .linha01{ border: none; width: 100%; height: 5px; background-image:linear-gradient(to right, #443C68, #5da2db); text-align: left; margin: 0 auto 0 0}
+
+
+    .sobre-mim{display: flex;flex-direction: column;align-items: center;padding-top: 30px; }
+    .sobre-mim h2{position: absolute; background-color:#1D1D1E ;}
+    .sobre-mim img{border-radius: 50%; background-image:linear-gradient(to top, #443C68, #5da2db); width: 70%; margin-top: 25px; margin-bottom: 15px;}
+    .sobre-mim p{border-radius: 20px;margin: 20px; padding: 20px; text-align: justify; color: #73737e; background-color:#222223;font-family: 'Roboto', sans-serif;box-shadow: 2px 2px 75px 2px black;}
+
+
+    .educacao{display: flex;flex-direction: column;align-items: center;padding-top: 100px; font-family: 'Chakra Petch', sans-serif;}
+    .educacao h2{position: absolute; background-color:#1D1D1E ;}
+    .educacao ul{border-radius: 20px;margin: 20px; padding: 20px; text-align: justify; color: #73737e; background-color:#222223;font-family: 'Roboto', sans-serif;box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.322);}
+    .educacao li{margin: 5px;}
+    .educacao h1{margin-top: 30px; color: #acacb3 ;}
+
+
+    .certificacoes{display: flex;flex-direction: column;align-items: center;padding-top: 100px; font-family: 'Chakra Petch', sans-serif;}
+    .certificacoes h2 {position: absolute; background-color:#1D1D1E ;}
+    .certificacoes ul{border-radius: 20px;margin: 20px; padding: 20px; text-align: justify; color: #73737e; background-color:#222223;font-family: 'Roboto', sans-serif;box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.322);margin-top: 30px;}
+    .certificacoes a {color: white; margin: 5px;padding: 10px;}
+    .certificacoes li{padding: 5px; margin: 5px;}
+
+
+
+    .skills{display: flex;flex-direction: column;align-items: center;padding-top: 100px; font-family: 'Chakra Petch', sans-serif;}
+    .skills h2{position: absolute; background-color:#1D1D1E ;}
+    .skills article{display: flex; justify-content:space-between; align-items: center; flex-wrap: wrap; margin: 5px; padding: 5px;}
+    .skills article div{border-radius: 20px;margin: 20px; padding: 20px; text-align: justify; color: #73737e; background-color:#222223;font-family: 'Roboto', sans-serif;box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.322);margin-top: 30px;}
+
+
+
+    .projetos{display: flex;flex-direction: column;align-items: center;padding-top: 100px; font-family: 'Chakra Petch', sans-serif;}
+    .projetos h2{position: absolute; background-color:#1D1D1E ;}
+    .projetos main{display: flex; justify-content:space-between; align-items: center; flex-wrap: wrap; margin: 5px; padding: 5px;}
+    .projetos main article{border-radius: 20px;margin: 20px; padding: 20px; text-align: justify; color: #73737e; background-color:#222223;font-family: 'Roboto', sans-serif;box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.322);margin-top: 30px;width: 85vw; min-height: 200px;display: flex;justify-content: flex-start; align-items: end; flex-wrap: wrap;  background-repeat: no-repeat; background-position: center; background-size: 100%; }
+    .projetos main article h3{width: 100%; background-color: rgba(41, 40, 40, 0.596); text-align: center; border-radius: 10px; margin: 10px; padding: 10px; color: white;}
+    .projetos main article div{display: flex; flex-wrap: wrap;}
+    .projetos main article p{margin: 5px; padding: 5px; border-radius: 10px; background-color: rgba(41, 41, 41, 0.685); color: white;}
+
+
+
+}
+
+
+
+@media (min-width: 769px){
+
+
+}
