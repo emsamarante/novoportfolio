@@ -1,5 +1,5 @@
 
-        ScrollReveal({ reset: true });
+        ScrollReveal({ reset: false });
         ScrollReveal().reveal('.sobre-mim', { delay: 10 });
         ScrollReveal().reveal('.sobre-mim img', { delay: 400 });
         ScrollReveal().reveal('.sobre-mim div', { delay: 600 });
