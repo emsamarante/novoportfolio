@@ -9,6 +9,7 @@ font-family: 'Chakra Petch', sans-serif;
 font-family: 'Inconsolata', monospace;
 font-family: 'Roboto', sans-serif;
 font-family: 'Roboto Mono', monospace;
+a
 */
 
 @media (max-width: 768px){
@@ -16,20 +17,20 @@ font-family: 'Roboto Mono', monospace;
     body{background-color:#1D1D1E;}
 
 
-    .cover{width: 100%; height: 100vh; color: white; text-align: center; display: flex; align-items: center; justify-content: center; flex-direction: column;}
+    .cover{width: 100%; height: 100vh; color: white; text-align: center; display: flex; align-items: center; justify-content: center; flex-direction: column; overflow: hidden; background-image: linear-gradient(to top,#1d1d1eb6, #443c6891, #5da2db);}
     .cover h1{font-size: 1.7rem; color: #5da2db; font-family: 'Chakra Petch', sans-serif;}
     .cover h2{font-size: 1rem; font-family: 'Roboto', sans-serif;}
     .cover h3{font-size: 0.8rem;}
     .cover a{color: white;}
     
 
-    .titulo-secao{width: 100%; display: flex; flex-direction: column;align-items: center;justify-content: center;margin-top: 10px; margin-bottom: 10px;}
-    .titulo-secao h2{font-family: 'Chakra Petch', sans-serif; padding: 20px; color: #9a9aa7; margin-bottom: 20px;margin-top: 5px;}
+    .titulo-secao{width: 100%; display: flex; flex-direction: column;align-items: center;justify-content: center; margin-bottom: 10px;}
+    .titulo-secao h2{font-family: 'Chakra Petch', sans-serif; padding: 20px; color: #9a9aa7; background-color:#1D1D1E;}
     .linha01{ border: none; width: 100%; height: 5px; background-image:linear-gradient(to right, #443C68, #5da2db); text-align: left; margin: 0 auto 0 0}
-    .linha02{ border: none; width: 100%; height: 3px; background-image:linear-gradient(to right, #7163b3, #5da2db); text-align: left; margin: 0 auto 0 0}
+    .linha02{ border: none; width: 100%; height: 10px; background-image:linear-gradient(to right, #7163b3, #5da2db); text-align: left; margin: 0 auto 0 0}
     
 
-    .sobre-mim{display: flex;flex-direction: column;align-items: center;padding-top: 30px; }
+    .sobre-mim{display: flex;flex-direction: column;align-items: center; background-color:#1D1D1E;}
     .sobre-mim h2{position: absolute; background-color:#1D1D1E ;}
     .sobre-mim img{border-radius: 50%; background-image:linear-gradient(to top, #443C68, #5da2db); width: 70%; margin-top: 25px; margin-bottom: 15px;}
     .sobre-mim p{border-radius: 20px;margin: 20px; padding: 20px; text-align: justify; color: #73737e; background-color:#222223;font-family: 'Roboto', sans-serif;box-shadow: 2px 2px 75px 2px black;}
@@ -71,7 +72,7 @@ font-family: 'Roboto Mono', monospace;
     .projetos-title{width: 100%;text-align: center;font-size: 1.6rem;}
     .projetos-skills{display: flex; align-items: center; flex-wrap: wrap;}
     .projetos-skillls-container-extra { display: flex;}
-    .projetos-skill{background-color: #60c1e7; border-radius: 10px;text-align: center; margin: 2px; padding: 2px;}
+    .projetos-skill{background-image:linear-gradient(to right, #443C68, #5da2db); border-radius: 10px;text-align: center; margin: 4px; padding: 4px;}
 
 }
 
