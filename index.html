@@ -25,12 +25,34 @@
 
         <link rel="stylesheet" href="splide-4.1.3/dist/css/splide.min.css">
         <link rel="stylesheet" href="css/spinner.css">
+        <link rel="stylesheet" href="css/animacoes.css">
+        <scrip src="js/scripts/scrolMenu.js"></scrip>
+
 
         <title>Eduardo Amarante</title>
 
     </head>
 
     <body onload="load()">
+
+       
+
+        <nav class="menu">
+           
+
+        <!--
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#abautme">Abaut me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+
+
+
+            </ul>
+
+        -->
+        </nav>
 
         <div class="loader">
 
@@ -52,7 +74,9 @@
                     </div>
                 </div>
             </div>
-
+            <h1>
+                Loading...
+            </h1>
         </div>
 
         <!-- -------------------------------------------------------- -->
@@ -89,20 +113,30 @@
             <!-- ------------------ -->
             <!-- ------------------ -->
 
+
+
             <section class="sobre-mim" id="abautme">
 
                 <div class="titulo-secao">
-
-                    <hr class="linha02">
+                     <hr class="linha02">
+                    
+                 
 
                 </div>
 
-                <img src="img/perfil/perfilEdu.png">
+
+
+              
+
+
 
                 <div>
                     <p>
                         <span style="color:white;">Thanks for your interest</span>, here is a brief history of my IT career.<br></p>
                 </div>
+
+                <img src="img/perfil/perfilEdu.png" class="sobre-mim-img-perfil">
+
 
                 <div>
                     <p>
@@ -133,6 +167,13 @@
                     </p>
                 </div>
 
+                <div class="rodape-seccao">
+                    <img src="img/icons-page/12.png" class="icone-anime">
+                    <img src="img/icons-page/4.png" class="icone-anime"  style="animation: girar 10s infinite;">
+                    <img src="img/icons-page/30.png" class="icone-anime">
+
+                </div>
+
             </section>
 
             <!-- ------------------ -->
@@ -143,6 +184,8 @@
                     <h2>#Education</h2>
                     <hr class="linha01">
                 </div>
+
+
 
                 <div>
 
@@ -171,6 +214,15 @@
                     </ul>
 
                 </div>
+
+
+                <div class="rodape-seccao">
+                    <img src="img/icons-page/31.png" class="icone-anime">
+                    <img src="img/icons-page/3.png" class="icone-anime"  style="animation: girar 30s infinite;">
+                    <img src="img/icons-page/dados.png" class="icone-anime">
+
+                </div>
+
             </section>
 
             <!-- ------------------ -->
@@ -198,6 +250,15 @@
 
                 </ul>
 
+                <div class="rodape-seccao">
+                    <img src="img/icons-page/21.png" class="icone-anime">
+                    <img src="img/icons-page/20.png" class="icone-anime" style="animation: girar 30s infinite;">
+                    <img src="img/icons-page/22.png" class="icone-anime">
+                    
+
+                </div>
+
+
             </section>
 
             <!-- ------------------ -->
@@ -209,28 +270,7 @@
                     <hr class="linha01">
                 </div>
 
-                <!-- a <article> <div> <img src="img/icons/python.png" loading="lazy"> </div>
-                <div> <img src="img/icons/scala.png" loading="lazy"> </div> <div> <img
-                src="img/icons/java.png" loading="lazy"> </div> <div> <img
-                src="img/icons/html.png" loading="lazy"> </div> <div> <img
-                src="img/icons/css.png" loading="lazy"> </div> <div> <img
-                src="img/icons/powerbi.png" loading="lazy"> </div> <div> <img
-                src="img/icons/tablau.png" loading="lazy"> </div> <div> <img
-                src="img/icons/mysql.png" loading="lazy"> </div> <div> <img
-                src="img/icons/postgree.png" loading="lazy"> </div> <div> <img
-                src="img/icons/mongodb.png" loading="lazy"> </div> <div> <img
-                src="img/icons/dremio.png" loading="lazy"> </div> <div> <img
-                src="img/icons/pv.png" loading="lazy"> </div> <div> <img
-                src="img/icons/apache.png" loading="lazy"> </div> <div> <img
-                src="img/icons/scickt.png" loading="lazy"> </div> <div> <img
-                src="img/icons/hadoop.png" loading="lazy"> </div> <div> <img
-                src="img/icons/airflow.png" loading="lazy"> </div> <div> <img
-                src="img/icons/aws.png" loading="lazy"> </div> <div> <img
-                src="img/icons/azure.png" loading="lazy"> </div> <div> <img
-                src="img/icons/kassandra.png" loading="lazy"> </div> <div> <img
-                src="img/icons/elastic search.png" loading="lazy"> </div> <div> <img
-                src="img/icons/kibana.png" loading="lazy"> </div> <div> <img
-                src="img/icons/kubernets.png" loading="lazy"> </div> </article> -->
+
 
                 <section class="splide" style="padding-left: 5%;" id="slider1">
                     <div class="splide__slider">
@@ -479,7 +519,10 @@
                 <!-- -------------------------------------------------------- -->
                 <!-- -------------------------------------------------------- -->
 
-                <footer></footer>
+                <footer class="rodape-page">
+
+                
+                </footer>
 
                 <script src="js/scripts/carousel.js"></script>
                 <script src="js/scripts/scroll.js"></script>
