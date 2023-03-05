@@ -9,8 +9,8 @@
 
 
 
-        ScrollReveal().reveal('.educacao', { delay: 200 });
-        ScrollReveal().reveal('.items-list', { delay: 400 });
+       
+        ScrollReveal().reveal('.items-list', { delay: 200 });
 
         ScrollReveal().reveal('.certificacoes', { delay: 400 });
         ScrollReveal().reveal('.certificacoes li', { delay: 400 });
