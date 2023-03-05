@@ -9,7 +9,6 @@
 
 
 
-       
         ScrollReveal().reveal('.items-list', { delay: 200 });
 
         ScrollReveal().reveal('.certificacoes', { delay: 400 });
