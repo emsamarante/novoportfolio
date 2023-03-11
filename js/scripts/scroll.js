@@ -3,6 +3,8 @@
        
        // ScrollReveal().reveal('.sobre-mim img', { delay: 100 });
        // ScrollReveal().reveal('.sobre-mim p', { delay: 100 });
+     //  ScrollReveal().reveal('.educacao ul', { delay: 1000 });
+
 
 
         
