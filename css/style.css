@@ -14,12 +14,12 @@ a
 html { scroll-behavior: smooth; }
 :target{scroll-margin-top: -30px;}
 /*body{background-color:#1D1D1E;} */
-body{background-image:linear-gradient(to right, #443C68, #5da2db);}
+body{background-image:linear-gradient(to right,#1D1D1E, #2e2e3b,#1D1D1E);}
 
 main { display: none;}
 
 
-.loader{ display: flex; width: 100vw; height: 90vh; justify-content: center; align-items: center;  background-image: linear-gradient(to top,#1d1d1eb6, #443c6891, #5da2db); flex-direction: column;}
+.loader{ display: flex; width: 100vw; height: 100vh; justify-content: center; align-items: center;  background-image: linear-gradient(to top,#1d1d1eb6, #443c6891, #5da2db); flex-direction: column;}
 .loader h1 {font-size: 1.7rem; color: #5da2db; font-family: 'Chakra Petch', sans-serif;}
 .loader h2 {font-size: 1.2rem; font-family: 'Roboto', sans-serif;text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.829);color: white;}
 .loader h3{font-size: 1rem; color: white;}
@@ -46,9 +46,9 @@ main { display: none;}
     .elementos-menu ul li a:hover{font-size: 1.3rem; color: #60c1e7;}
 
     .cover{width: 100%; height: 100vh; color: white; text-align: center; display: none; align-items: center; justify-content: center; flex-direction: column; overflow: hidden; background-image: linear-gradient(to top,#1d1d1eb6, #443c6891, #5da2db);}
-    .cover h1{font-size: 1.7rem; color: #6db0e7; font-family: 'Chakra Petch', sans-serif; text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.712);}
-    .cover h2{font-size: 1rem; font-family: 'Roboto', sans-serif;text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.829);}
-    .cover h3{font-size: 0.8rem;}
+    .cover h1{font-size: 1.9rem; color: #6db0e7; font-family: 'Chakra Petch', sans-serif; text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.712);}
+    .cover h2{font-size: 1.2rem; font-family: 'Roboto', sans-serif;text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.829);}
+    .cover h3{font-size: 1rem;}
     .cover a{color: white;}
     
 
@@ -72,7 +72,7 @@ main { display: none;}
     .educacao div{padding-bottom: 60px;}
     .educacao h2{position: absolute;}
     .educacao ul{ transition: 0.2s; border-left: 3px solid white;margin-left: 2px; padding-left: 15px; min-height: 200px;}
-    .educacao ul::before {content:''; background-color: #aebac4; width:30px; height: 30px; position: relative; display: block; border-radius: 50%;left: -31px; top: -1px;}
+    .educacao ul::before {content:''; background-color: #aebac4; width:10px; height: 10px; position: relative; display: block; border-radius: 50%;left: -31px; top: -1px;}
     .educacao ul:hover{box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.322); }
     .educacao ul li{margin: 5px; list-style: none; margin-left: 10px; color: white;}
     .educacao h1{margin-top: 1px; color: #ffffff ; margin-bottom: 1px;}
@@ -82,14 +82,14 @@ main { display: none;}
     
 
 
-    .certificacoes{display: flex;flex-direction: column;align-items: center;padding-top: 50px; font-family: 'Chakra Petch', sans-serif; }
+    .certificacoes{display: flex;flex-direction: column;align-items: center;padding-top: 50px; font-family: 'Chakra Petch', sans-serif;}
     .certificacoes h2 {position: absolute; }
     .certificacoes ul{border-radius: 20px;margin: 20px; padding: 20px; text-align: justify; color: #73737e; background-color:#222223;font-family: 'Roboto', sans-serif;box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.322);margin-top: 80px; transition: 0.5s;}
     .certificacoes ul:hover{box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.322);}
     .certificacoes ul li{display: flex; justify-content:flex-start; align-items: center; margin: 25px 0px 25px 0px;}
-    .certificacoes ul li a {padding: 5px; margin: 5px; list-style: none; text-decoration: none; color: #bdbfc2;}
-    .certificacoes ul li::before{content: url('../img/svg/certificado.svg'); width: 0.2em; height: 15px; display: contents;}
-    .certificacoes ul li hover{color: white;}
+    .certificacoes ul li img{width: 40px; height: 40px;}
+    .certificacoes ul li a {padding: 5px; margin: 5px; list-style: none; text-decoration: none; color: #ffffff;text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.712);}
+    .certificacoes ul li hover{text-shadow: 5px 5px 5px rgba(187, 187, 187, 0.712);}
     
   
 
