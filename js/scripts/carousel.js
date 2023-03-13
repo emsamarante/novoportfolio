@@ -1,18 +1,41 @@
-new Splide( '#slider1',{
+if(window.screen.width <= 768){
+var quantidadeProjetosPorPageCarrossel = 1
+}
+else{
+var quantidadeProjetosPorPageCarrossel = 2
+console.log(window.screen)
+
+}
+
+
+
+
+
+/*verify resize
+addEventListener("resize", (event) => {});
+onresize = (event) => {
+  window.location.reload()
+
+}
+*/
+// -----------------------------
+
+
+var CarrosselSkills = new Splide( '#slider1',{
     type    : 'loop',
     autoplay: 'play',
     perPage : 3,
     width: '95%'
   }).mount();
 
-  new Splide( '#slider2',{
+
+
+  var CarrosselProjetos = new Splide( '#slider2',{
     type    : 'loop',
     autoplay: 'play',
-    perPage : 1,
+    perPage : quantidadeProjetosPorPageCarrossel,
     width: '90%'
-  }).mount();;
-
-
+  }).mount();
 
 
 

@@ -12,7 +12,7 @@ font-family: 'Roboto Mono', monospace;
 a
 */
 html { scroll-behavior: smooth; }
-:target{scroll-margin-top: -30px;}
+:target{scroll-margin-top: 1px;}
 /*body{background-color:#1D1D1E;} */
 body{background-image:linear-gradient(to right,#1D1D1E, #2e2e3b,#1D1D1E);}
 
@@ -127,12 +127,23 @@ main { display: none;}
     .link-projeto-area{margin: 20px;}
     .link-projeto{margin: 10px; color: white; font-size: 1rem;text-decoration: underline; font-style: italic;}
 
+
+    .exp-profissional{display: flex;flex-direction: column;align-items: center;padding-top: 10px; font-family: 'Chakra Petch', sans-serif;}
+    .exp-profissional ul{border-radius: 20px;margin: 20px; padding: 20px; text-align: justify; color: #73737e; background-color:#222223;font-family: 'Roboto', sans-serif;box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.322);margin-top: 10px; transition: 0.5s;}
+    .exp-profissional ul:hover{box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.322);}
+    .exp-profissional ul li{ list-style: none; text-decoration: none; color: #ffffff;text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.712);margin-top: 10px;}
+    .exp-profissional ul li h3{font-size: 1.2rem; margin-top: 5px;}
+    .exp-profissional ul li p{display: block; margin: 15px 5px 15px 5px ; text-indent: 15px;}
+    .exp-profissional ul li hr{ border: none; width: 100%; height: 2px; text-align: left; margin: 0 auto 0 0;background-color: #4f9fbe ;}
+    
+    
+    
     .icone-anime{ width: 64px; height: 64px; background-color: transparent;}
     .rodape-seccao {overflow: hidden;display: none; justify-content: center; align-items: center; margin: 5px;}
 
 
 
-    .rodape-page{width: 100%; min-height: 200px; background-image: linear-gradient(to bottom,#1d1d1eb6, #443c6891, #5da2db); display: flex; justify-content: center; align-items:flex-end; flex-direction: column;}
+    .rodape-page{width: 100%; min-height: 200px; background-image: linear-gradient(to bottom,#1d1d1eb6, #443c6891, #5da2db); display: flex; justify-content: center; align-items:flex-end; flex-direction: column;font-family: 'Chakra Petch', sans-serif;}
     .rodape-page div{ display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; min-height: 100%;}
     .rodape-page div p{color: white; margin: 5px;}
     .rodape-page div p a{color: white;}
@@ -142,13 +153,19 @@ main { display: none;}
     .dev p{font-size: 0.7rem; text-align: center; padding-right: 10px;}
     .dev p a{text-decoration: underline;}
 
-    .splide__slide img {width: 55px;}
+    .splide__slide img {width: 40px; height: 40px;}
+
+    .fig1{width: 55px; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+    .fig1 figcaption{color: #ffffff;text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.712); text-align: center;}
+
+    
 
 
 
 }
 
 @media (min-width: 769px){
+
 
     .menu{position: fixed; display: none;top: 1%;right: 2%;border-radius: 50%; background-image: linear-gradient(to top,#1d1d1eb6, #443c6891, #5da2db);;z-index: 100; text-align: right;}
     .menu div{margin: 5px; text-align: center;transform: rotate(-0.5turn); transition: 1s; width:40px; height: 40px; display: flex; justify-content: center;align-items: center;}
@@ -168,10 +185,12 @@ main { display: none;}
     .elementos-menu ul li a:hover{font-size: 1.3rem; color: #60c1e7;}
 
     .cover{width: 100%; height: 100vh; color: white; text-align: center; display: none; align-items: center; justify-content: center; flex-direction: column; overflow: hidden; background-image: linear-gradient(to top,#1d1d1eb6, #443c6891, #5da2db);}
-    .cover h1{font-size: 1.7rem; color: #6db0e7; font-family: 'Chakra Petch', sans-serif; text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.712);}
-    .cover h2{font-size: 1rem; font-family: 'Roboto', sans-serif;text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.829);}
-    .cover h3{font-size: 0.8rem;}
-    .cover a{color: white;}
+
+    .cover h1{font-size: 3.5rem; color: #6db0e7; font-family: 'Chakra Petch', sans-serif; text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.712);}
+    .cover h2{font-size: 1.8rem; font-family: 'Roboto', sans-serif;text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.829);}
+    .cover h3{font-size: 1.6rem; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.829);}
+    .cover a{color: white; font-size: 1.3rem;} 
+    .cover a:hover{color: #60c1e7;}
     
 
     .titulo-secao{width: 100%; display: flex; flex-direction: column;align-items: center;justify-content: center; margin-bottom: 10px;}
@@ -182,10 +201,10 @@ main { display: none;}
     .titulo-secao-sobre-mim{width: 100%; display: flex; flex-direction: column;align-items: center;justify-content: center; margin-bottom: 10px; margin-top: 25px;}
     .titulo-secao-sobre-mim h3{font-family: 'Chakra Petch', sans-serif; padding: 20px; color: #ffffff; background-color: transparent; font-size: 1.5rem;  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.712);}
 
-    .sobre-mim{display: flex;flex-direction: column;align-items: center;}
+    .sobre-mim{display: flex;flex-direction: column;align-items: center; justify-content: center;}
     .sobre-mim h2{position: absolute; background-color:#1D1D1E ;}
-    .sobre-mim-img-perfil{border-radius: 50%; background-image:linear-gradient(to top, #3a2c79, #5da2db); width: 70%; margin-top: 25px; margin-bottom: 15px;}
-    .sobre-mim p{border-radius: 20px;margin: 20px; padding: 20px; text-align: justify; color: #73737e; background-color:#222223;font-family: 'Roboto', sans-serif;box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.322);; text-indent: 2rem;}
+    .sobre-mim-img-perfil{border-radius: 50%; background-image:linear-gradient(to top, #3a2c79, #5da2db); width: 300px; margin-top: 25px; margin-bottom: 15px;}
+    .sobre-mim p{border-radius: 20px;margin: 20px; padding: 20px; text-align: justify; color: #73737e; background-color:#222223;font-family: 'Roboto', sans-serif;box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.322); text-indent: 2rem; width:600px;}
 
     .sobre-mim p a {text-decoration: underline;color: #73737e ;}
     .sobre-mim p a:hover{color: white;}
@@ -204,14 +223,14 @@ main { display: none;}
     
 
 
-    .certificacoes{display: flex;flex-direction: column;align-items: center;padding-top: 50px; font-family: 'Chakra Petch', sans-serif; }
+    .certificacoes{display: flex;flex-direction: column;align-items: center;padding-top: 50px; font-family: 'Chakra Petch', sans-serif;}
     .certificacoes h2 {position: absolute; }
     .certificacoes ul{border-radius: 20px;margin: 20px; padding: 20px; text-align: justify; color: #73737e; background-color:#222223;font-family: 'Roboto', sans-serif;box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.322);margin-top: 80px; transition: 0.5s;}
     .certificacoes ul:hover{box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.322);}
     .certificacoes ul li{display: flex; justify-content:flex-start; align-items: center; margin: 25px 0px 25px 0px;}
-    .certificacoes ul li a {padding: 5px; margin: 5px; list-style: none; text-decoration: none; color: #bdbfc2;}
-    .certificacoes ul li::before{content: url('../img/svg/certificado.svg'); width: 0.2em; height: 15px; display: contents;}
-    .certificacoes ul li hover{color: white;}
+    .certificacoes ul li img{width: 40px; height: 40px;}
+    .certificacoes ul li a {padding: 5px; margin: 5px; list-style: none; text-decoration: none; color: #ffffff;text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.712);}
+    .certificacoes ul li hover{text-shadow: 5px 5px 5px rgba(187, 187, 187, 0.712);}
     
   
 
@@ -249,21 +268,38 @@ main { display: none;}
     .link-projeto-area{margin: 20px;}
     .link-projeto{margin: 10px; color: white; font-size: 1rem;text-decoration: underline; font-style: italic;}
 
+
+    .exp-profissional{display: flex;flex-direction: column;align-items: center;padding-top: 10px; font-family: 'Chakra Petch', sans-serif;}
+    .exp-profissional ul{border-radius: 20px;margin: 20px; padding: 20px; text-align: justify; color: #73737e; background-color:#222223;font-family: 'Roboto', sans-serif;box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.322);margin-top: 10px; transition: 0.5s; width: 600px;}
+    .exp-profissional ul:hover{box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.322);}
+    .exp-profissional ul li{ list-style: none; text-decoration: none; color: #ffffff;text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.712);margin-top: 10px;}
+    .exp-profissional ul li h3{font-size: 1.2rem; margin-top: 5px;}
+    .exp-profissional ul li p{display: block; margin: 15px 5px 15px 5px ; text-indent: 15px;}
+    .exp-profissional ul li hr{ border: none; width: 100%; height: 2px; text-align: left; margin: 0 auto 0 0;background-color: #4f9fbe ;}
+    
+    
+    
     .icone-anime{ width: 64px; height: 64px; background-color: transparent;}
     .rodape-seccao {overflow: hidden;display: none; justify-content: center; align-items: center; margin: 5px;}
 
 
 
-    .rodape-page{width: 100%; min-height: 200px; background-image: linear-gradient(to bottom,#1d1d1eb6, #443c6891, #5da2db); display: flex; justify-content: center; align-items:flex-end; flex-direction: column;}
+    .rodape-page{width: 100%; min-height: 200px; background-image: linear-gradient(to bottom,#1d1d1eb6, #443c6891, #5da2db); display: flex; justify-content: center; align-items:flex-end; flex-direction: column;font-family: 'Chakra Petch', sans-serif;}
     .rodape-page div{ display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; min-height: 100%;}
     .rodape-page div p{color: white; margin: 5px;}
     .rodape-page div p a{color: white;}
 
 
     .dev{width: 100%;;  position: relative; bottom: -10px;}
-    .dev p{font-size: 0.8rem; text-align: center; padding-right: 10px;}
+    .dev p{font-size: 0.7rem; text-align: center; padding-right: 10px;}
     .dev p a{text-decoration: underline;}
 
-    .splide__slide img {width: 55px;}
+    .splide__slide img {width: 40px; height: 40px;}
+
+    .fig1{width: 55px; display: flex; flex-direction: column; justify-content: center; align-items: center;}
+    .fig1 figcaption{color: #ffffff;text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.712); text-align: center;}
+
+    
+
 
 }
