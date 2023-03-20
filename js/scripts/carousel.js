@@ -2,7 +2,7 @@ if(window.screen.width <= 768){
 var quantidadeProjetosPorPageCarrossel = 1
 }
 else{
-var quantidadeProjetosPorPageCarrossel = 2
+var quantidadeProjetosPorPageCarrossel = 3
 console.log(window.screen)
 
 }
