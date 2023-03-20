@@ -1,9 +1,9 @@
 *{ margin: 0; padding: 0; box-sizing: border-box; text-decoration: none;}
-body::-webkit-scrollbar {width: 10px}
+body::-webkit-scrollbar {width: 5px}
 
 body::-webkit-scrollbar-track {background: #1e3036;}
 
-body::-webkit-scrollbar-thumb {background-color:#60c1e7 ; border-radius: 20px;}
+body::-webkit-scrollbar-thumb {background-color:#60c1e7 ;}
 /* 
 font-family: 'Chakra Petch', sans-serif;
 font-family: 'Inconsolata', monospace;
@@ -62,13 +62,15 @@ main { display: none;}
 
     .sobre-mim{display: flex;flex-direction: column;align-items: center;}
     .sobre-mim h2{position: absolute; background-color:#1D1D1E ;}
+    .sobre-mim div{display: flex; flex-direction: column; align-items: center;}
     .sobre-mim-img-perfil{border-radius: 50%; background-image:linear-gradient(to top, #3a2c79, #5da2db); width: 70%; margin-top: 25px; margin-bottom: 15px;}
-    .sobre-mim p{border-radius: 20px;margin: 20px; padding: 20px; text-align: justify; color: #73737e; background-color:#222223;font-family: 'Roboto', sans-serif;box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.322);; text-indent: 2rem;}
+    .sobre-mim p{border-radius: 20px;margin: 20px; padding: 20px; text-align: justify; color: #73737e; background-color:#222223;font-family: 'Roboto', sans-serif;box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.322); text-indent: 2rem;}
 
     .sobre-mim p a {text-decoration: underline;color: #73737e ;}
     .sobre-mim p a:hover{color: white;}
 
-    .educacao{display: flex;flex-direction: column;align-items: center;padding-top: 100px; font-family: 'Chakra Petch', sans-serif;}
+    .educacao{display: flex;flex-direction: column;align-items: center;padding-top: 100px; font-family: 'Chakra Petch', sans-serif; background-image: linear-gradient(to top,#1d1d1ed2, #5da2db), url('https://celsocestaro.com.br/wp-content/uploads/2020/06/analise-de-dados-a-favor-do-futuro-do-negocio-1580759422.jpg');background-repeat: repeat;background-size: cover;background-attachment: fixed; background-position: center; background-repeat: no-repeat;}
+
     .educacao div{padding-bottom: 60px;}
     .educacao h2{position: absolute;}
     .educacao ul{ transition: 0.2s; border-left: 3px solid white;margin-left: 2px; padding-left: 15px; min-height: 200px;}
@@ -128,12 +130,12 @@ main { display: none;}
     .link-projeto{margin: 10px; color: white; font-size: 1rem;text-decoration: underline; font-style: italic;}
 
 
-    .exp-profissional{display: flex;flex-direction: column;align-items: center;padding-top: 10px; font-family: 'Chakra Petch', sans-serif; margin-bottom: 60px;}
+    .exp-profissional{display: flex;flex-direction: column;align-items: center;padding-top: 10px; font-family: 'Chakra Petch', sans-serif; margin-bottom: 1px;}
     .exp-profissional ul{border-radius: 20px;margin: 20px; padding: 20px; text-align: justify; color: #73737e; background-color:#222223;font-family: 'Roboto', sans-serif;box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.322);margin-top: 10px; transition: 0.5s;}
     .exp-profissional ul:hover{box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.322);}
     .exp-profissional ul li{ list-style: none; text-decoration: none; color: #ffffff;text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.712);margin-top: 10px;}
-    .exp-profissional ul li h3{font-size: 1.2rem; margin-top: 5px;}
-    .exp-profissional ul li p{display: block; margin: 15px 5px 15px 5px ; text-indent: 15px;}
+    .exp-profissional ul li h3{margin: 3px; font-size: 1rem;}
+    .exp-profissional ul li p{display: block; margin: 15px 5px 15px 5px ; text-indent: 15px;  color: #aaaab6;font-family: 'Roboto', sans-serif;}
     .exp-profissional ul li hr{ border: none; width: 100%; height: 2px; text-align: left; margin: 0 auto 0 0;background-color: #4f9fbe ;}
     
     
@@ -143,15 +145,15 @@ main { display: none;}
 
 
 
-    .rodape-page{width: 100%; min-height: 200px; background-image: linear-gradient(to bottom,#1d1d1eb6, #443c6891, #5da2db); display: flex; justify-content: center; align-items:flex-end; flex-direction: column;font-family: 'Chakra Petch', sans-serif;}
+    .rodape-page{width: 100%; min-height: 250px; background-image: linear-gradient(to bottom,#1d1d1eb6, #443c6891, #5da2db); display: flex; justify-content: center; align-items:flex-end; flex-direction: column;font-family: 'Chakra Petch', sans-serif;}
     .rodape-page div{ display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; min-height: 100%;}
     .rodape-page div p{color: white; margin: 5px;}
     .rodape-page div p a{color: white;}
 
 
-    .dev{width: 100%;;  position: relative; bottom: -10px;}
-    .dev p{font-size: 0.7rem; text-align: center; padding-right: 10px;}
-    .dev p a{text-decoration: underline;}
+    .dev{width: 100%;  position: relative; bottom: -20px;}
+    .dev p{font-size: 0.7rem; text-align: right; padding-right: 10px;}
+    .dev p a{text-decoration: underline ;}
 
     .splide__slide img {width: 40px; height: 40px;}
 
@@ -201,15 +203,14 @@ main { display: none;}
     .titulo-secao-sobre-mim{width: 100%; display: flex; flex-direction: column;align-items: center;justify-content: center; margin-bottom: 10px; margin-top: 25px;}
     .titulo-secao-sobre-mim h3{font-family: 'Chakra Petch', sans-serif; padding: 20px; color: #ffffff; background-color: transparent; font-size: 1.5rem;  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.712);}
 
-    .sobre-mim{display: flex;flex-direction: column;align-items: center; justify-content: center;}
+    .sobre-mim{display: flex;flex-direction: column;align-items: center;}
     .sobre-mim h2{position: absolute; background-color:#1D1D1E ;}
-    .sobre-mim-img-perfil{border-radius: 50%; background-image:linear-gradient(to top, #3a2c79, #5da2db); width: 300px; margin-top: 25px; margin-bottom: 15px;}
-    .sobre-mim p{border-radius: 20px;margin: 20px; padding: 20px; text-align: justify; color: #73737e; background-color:#222223;font-family: 'Roboto', sans-serif;box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.322); text-indent: 2rem; width:600px;}
+    .sobre-mim div{display: flex; flex-direction: row; align-items:flex-start; justify-content: center;}
+    .sobre-mim-img-perfil{border-radius: 50%; background-image:linear-gradient(to top, #3a2c79, #5da2db); width: 125px; margin-top: 25px; margin-bottom: 15px;margin-left: 10px;}
+    .sobre-mim p{border-radius: 20px;margin: 20px; padding: 20px; text-align: justify; color: #73737e; background-color:#222223;font-family: 'Roboto', sans-serif;box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.322);; text-indent: 2rem; width: 60%;}
 
-    .sobre-mim p a {text-decoration: underline;color: #73737e ;}
-    .sobre-mim p a:hover{color: white;}
-
-    .educacao{display: flex;flex-direction: column;align-items: center;padding-top: 100px; font-family: 'Chakra Petch', sans-serif;}
+    .educacao{display: flex;flex-direction: column;align-items: center;padding-top: 100px; font-family: 'Chakra Petch', sans-serif; background-image: linear-gradient(to top,#1d1d1ed2, #5da2db), url('https://celsocestaro.com.br/wp-content/uploads/2020/06/analise-de-dados-a-favor-do-futuro-do-negocio-1580759422.jpg');background-repeat: repeat;background-size: cover;background-attachment: fixed; background-position: center; background-repeat: no-repeat;}
+  
     .educacao div{padding-bottom: 60px;}
     .educacao h2{position: absolute;}
     .educacao ul{ transition: 0.2s; border-left: 3px solid white;margin-left: 2px; padding-left: 15px; min-height: 200px;}
@@ -230,7 +231,7 @@ main { display: none;}
     .certificacoes ul li{display: flex; justify-content:flex-start; align-items: center; margin: 25px 0px 25px 0px;}
     .certificacoes ul li img{width: 40px; height: 40px;}
     .certificacoes ul li a {padding: 5px; margin: 5px; list-style: none; text-decoration: none; color: #ffffff;text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.712);}
-    .certificacoes ul li hover{text-shadow: 5px 5px 5px rgba(187, 187, 187, 0.712);}
+    .certificacoes ul li:hover{text-shadow: 5px 5px 5px rgba(187, 187, 187, 0.712);}
     
   
 
@@ -269,12 +270,12 @@ main { display: none;}
     .link-projeto{margin: 10px; color: white; font-size: 1rem;text-decoration: underline; font-style: italic;}
 
 
-    .exp-profissional{display: flex;flex-direction: column;align-items: center;padding-top: 10px; font-family: 'Chakra Petch', sans-serif;margin-bottom: 80px;}
-    .exp-profissional ul{border-radius: 20px;margin: 20px; padding: 20px; text-align: justify; color: #73737e; background-color:#222223;font-family: 'Roboto', sans-serif;box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.322);margin-top: 10px; transition: 0.5s; width: 600px;}
+    .exp-profissional{display: flex;flex-direction: column;align-items: center;padding-top: 10px; font-family: 'Chakra Petch', sans-serif;margin-bottom: 50px;}
+    .exp-profissional ul{border-radius: 20px;margin: 20px; padding: 20px; text-align: justify; color: #73737e; background-color:#222223;font-family: 'Roboto', sans-serif;box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.322);margin-top: 10px; transition: 0.5s; width: 75%;}
     .exp-profissional ul:hover{box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.322);}
     .exp-profissional ul li{ list-style: none; text-decoration: none; color: #ffffff;text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.712);margin-top: 10px;}
-    .exp-profissional ul li h3{font-size: 1.2rem; margin-top: 5px;}
-    .exp-profissional ul li p{display: block; margin: 15px 20px 15px 20px ; text-indent: 25px;}
+    .exp-profissional ul li h3{margin: 3px; font-size: 1rem;}
+    .exp-profissional ul li p{font-family: 'Roboto', sans-serif;display: block; margin: 15px 20px 15px 20px ; text-indent: 25px;  color: #aaaab6}
     .exp-profissional ul li hr{ border: none; width: 100%; height: 2px; text-align: left; margin: 0 auto 0 0;background-color: #4f9fbe ;}
     
     
@@ -290,8 +291,8 @@ main { display: none;}
     .rodape-page div p a{color: white;}
 
 
-    .dev{width: 100%;;  position: relative; bottom: -10px;}
-    .dev p{font-size: 0.7rem; text-align: center; padding-right: 10px;}
+    .dev{width: 100%;  position: relative; bottom: -10px;}
+    .dev p{font-size: 0.7rem; text-align: right; padding-right: 10px;}
     .dev p a{text-decoration: underline;}
 
     .splide__slide img {width: 40px; height: 40px;}
